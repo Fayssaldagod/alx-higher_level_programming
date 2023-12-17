@@ -1,0 +1,10 @@
+	 >>> say_my_name = __import__("3-say_my_name").say_my_name
+
+	 >>> m = __import__("3-say_my_name").__doc__
+
+	 >>> len(m) > 1
+	 True
+	 
+	 >>> f = __import__("3-say_my_name").say_my_name.__doc__
+         >>> len(f) > 1
+         True
